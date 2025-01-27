@@ -51,7 +51,7 @@ aws logs filter-log-events \
 
 ## Automating Pagination
 
-If you need to retrieve logs for debugging or monitoring purposes and your log entries exceed 10,000, you can automate the pagination process using a script in **Bash** or **Python**. [See an example here](#).
+If you need to retrieve logs for debugging or monitoring purposes and your log entries exceed 10,000, you can automate the pagination process using a script in **Bash** or **Python**. [See an example here](https://github.com/amaldeeppj/cloudwatch_log/blob/main/cloudwatch_logfetch.sh).
 
 ## Prerequisites
 
