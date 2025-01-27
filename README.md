@@ -20,7 +20,7 @@ aws logs filter-log-events \
 ### Parameters
 
 - `<LOG_GROUP_NAME>`: The name of the CloudWatch log group.
-- `<START_TIME>` and `<END_TIME>`: The time range specified in Unix timestamps (in milliseconds). Use tools like [Epoch Converter](https://www.epochconverter.com/) | <a href="https://www.epochconverter.com/" target="_blank">Link text</a> to convert time to this format.
+- `<START_TIME>` and `<END_TIME>`: The time range specified in Unix timestamps (in milliseconds). Use tools like [Epoch Converter](https://www.epochconverter.com/) to convert time to this format.
 - `--limit`: Specifies the maximum number of log events to retrieve in a single request (default is 10,000).
 - `--output`: Specifies the output format (e.g., JSON).
 
